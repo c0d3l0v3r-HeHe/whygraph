@@ -5,6 +5,7 @@ const BACKEND = process.env.BACKEND_URL ?? "http://localhost:8000";
 const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
+  devIndicators: false,
   turbopack: {
     rules: {
       "*.css": {
