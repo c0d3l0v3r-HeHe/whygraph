@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+
+# caches / data
+data/
+.cache/
+__pycache__/
+*.pyc
+.venv/
+
+# frontend
+node_modules/
+.next/
+
+# local tooling / OS
+.DS_Store
+*.log
+next-env.d.ts
+*.tsbuildinfo
+submission/
